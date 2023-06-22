@@ -1,4 +1,4 @@
-## Experiment 5
+## Experiment 18
 ## Aim:
 To create SQL query to fetch duplicate records having matching data in some fields of a table.
 
@@ -79,5 +79,8 @@ FROM Player
 GROUP BY DESIGNATION, AFFECTED_FROM
 HAVING COUNT(*) > 1;
 ```
+## Output 
+![image](https://github.com/balaji-21005757/sql-5/assets/94372294/a34980e2-3015-4425-904c-29f48741da52)
+
 ## Result:
 Therefore we have successfully created a SQL query to fetch duplicate records having matching data in some fields of a table.
